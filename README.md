@@ -11,7 +11,7 @@ Preliminary Class schedule is shown below (subject to change)
 |Week|Time|Topic|Hand-in|
 |--|--|--|--|
 |Week 5<br/>27-01-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Getting started, Python language features|[Ex 1](https://github.com/datsoftlyngby/dat4sem2020spring-python/blob/master/01-Exercise.ipynb)|
-|Week 6<br/>03-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules|NaN|
+|Week 6<br/>03-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules|[Ex 2](https://github.com/datsoftlyngby/dat4sem2020spring-python/blob/master/02-Exercise.ipynb)|
 |Week 7<br/>10-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Files, CLI, OO, Exceptions|NaN|
 |Week 8<br/>17-02-2020|Video lectures **No Class**|Intro to Plotting|NaN|
 |Week 9<br/>24-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Intro to Numpy|NaN|
