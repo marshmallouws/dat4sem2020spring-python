@@ -3,7 +3,16 @@ import urllib.request as req
 from urllib.parse import urlparse
 import urllib
 from http.cookiejar import CookieJar
+import ssl
 
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    # Legacy Python that doesn't verify HTTPS certificates by default
+    pass
+else:
+    # Handle target environment that doesn't support HTTPS verification
+    ssl._create_default_https_context = _create_unverified_https_context
 
 def download(url, to=None):
     """Download a remote file specified by a URL to a 
