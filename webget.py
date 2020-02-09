@@ -33,7 +33,7 @@ def download(url, to=None):
         filename = os.path.basename(urlparse(url).path)
         localfile = os.path.join('.', filename)
 
-    print('Downloading file to {}'.format(localfile))
+    #print('Downloading file to {}'.format(localfile))
 
     if not os.path.isfile(localfile):
         cj = CookieJar()
