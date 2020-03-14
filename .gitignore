@@ -146,11 +146,15 @@ dmypy.json
 11x*
 12x*
 13x*
+**/client_secret.json
 **/misc.ipynb
 textcontainer.py
 **/api_keys.py
 **/global_warming.py
 **/my_modules/
 example.html
-
+credentials.json
+token.pickle
+google_sheet_demo.py 
+**/pygraphviz-1.5/
 **/solutions/
