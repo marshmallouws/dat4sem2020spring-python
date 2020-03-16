@@ -1,26 +1,3 @@
-#Write a module webget.py that exposes a function to download a file from the web in case 
-# it does not exist locally already. The function shall have the following signature 
-# download(url, to=None) where the keyword argument to specifies where to save a file locally and with which name. 
-# If to == None then the file shall be saved in the current working directory ./ with the same name as it has at its origin. 
-# For example, calling your program as in the following
-
-#import webget
-
-#url = 'http://data.kk.dk/dataset/76ecf368-bf2d-46a2-bcf8-adaf37662528/resource/9286af17-f74e-46c9-a428-9fb707542189/download/befkbhalderstatkode.csv'
-#webget.download(url)
-#will download the remote file to ./befkbhalderstatkode.csv.
-
-#Likely, you will need functions from the standard library modules os, and urllib. For example, read the doc strings 
-# for the following functions and implement the given function stub with help of them.
-
-#os.path.isfile
-#os.path.join
-#os.path.basename?
-#urllib.parse?
-#urllib.request.urlretrieve?
-#import os
-#import urllib.request as req
-#from urllib.parse import urlparse
 import os.path
 import urllib.parse
 import urllib.request
